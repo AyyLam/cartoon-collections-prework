@@ -10,6 +10,7 @@ def summon_captain_planet(planeteers)
     planteer[0].upcase
     planteer + "!" 
   end
+  planteers
 end
 
 def long_planeteer_calls# code an argument here
