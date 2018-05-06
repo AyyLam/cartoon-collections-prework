@@ -8,7 +8,7 @@ end
 def summon_captain_planet(planeteers) 
   planeteers.collect do |planteer| 
     planteer[0].upcase
-    planteer + "!" 
+    planteer << "!" 
   end
 end
 
