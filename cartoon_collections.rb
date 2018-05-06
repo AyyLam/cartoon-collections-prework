@@ -1,5 +1,5 @@
 def roll_call_dwarves(dwarfs)
-  dwarfs.each do |dwarf|
+  dwarfs.each_with_index do |dwarf|
     puts dwarf 
   end 
 end
