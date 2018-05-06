@@ -7,8 +7,7 @@ end
 
 def summon_captain_planet(planeteers) 
   planeteers.collect do |planteer| 
-    planteer.capitalize
-    planteer << "!" 
+    planteer.capitalize + "!"
   end
 end
 
